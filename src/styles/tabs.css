@@ -1,0 +1,35 @@
+.tabs {
+  display: flex;
+  gap: var(--var-gap);
+}
+
+.tabs > .tab {
+  outline: var(--var-outline-white);
+  padding: var(--var-padding);
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: var(--var-gap);
+}
+
+.tabs > .tab > .tab-close-button {
+  border-radius: var(--var-border-radius);
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.tabs > .tab > .tab-close-button:hover {
+  color: var(--var-red);
+  outline: 2px solid var(--var-red);
+}
+
+.tabs .tab.tab-active {
+  color: var(--var-yellow);
+  outline: 2px solid var(--var-yellow);
+}
+
+.tabs > .tab:not(.tab-active):hover {
+  color: var(--var-cyan);
+  outline: 2px solid var(--var-cyan);
+}

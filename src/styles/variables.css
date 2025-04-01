@@ -1,0 +1,17 @@
+:root {
+  --var-black: #000;
+  --var-white: #FFF;
+  --var-cyan: cyan;
+  --var-magenta: magenta;
+  --var-yellow: yellow;
+  --var-lime: lime;
+  --var-red: red;
+
+  --var-outline-white: 2px solid #FFF;
+
+  --var-border-radius: 4px;
+
+  --var-padding: 4px;
+
+  --var-gap: 8px;
+}

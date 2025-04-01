@@ -1,0 +1,14 @@
+.status-bar {
+  height: 24px;
+  outline: var(--var-outline-white);
+  border-radius: var(--var-border-radius);
+  padding: var(--var-padding);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--var-gap);
+}
+
+.status-bar .value {
+  color: var(--var-yellow);
+}

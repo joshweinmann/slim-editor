@@ -1,0 +1,23 @@
+.cursor {
+  position: absolute;
+  width: 2px;
+  height: 16px;
+  background-color: var(--var-lime);
+  /* animation: blink .8s infinite; */
+  vertical-align: middle;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

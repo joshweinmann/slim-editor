@@ -1,0 +1,27 @@
+.text-line-container {
+  font-family: monospace;
+  font-size: 14px;
+  display: flex;
+  align-items: stretch;
+}
+
+.text-line-container.current-line > .text-line {
+  background-color: #383838;
+}
+
+.line-number {
+  color: gray;
+  margin-right: 8px;
+  text-align: right;
+  white-space: pre;
+}
+
+.line-number.current-line {
+  color: var(--var-yellow);
+}
+
+.text-line {
+  white-space: pre;
+  flex-grow: 1;
+  position: relative;
+}
